@@ -21,11 +21,10 @@ switch ($_SERVER['REQUEST_METHOD']) {
   
      $DatoPais = $InfoApi['geoplugin_countryName'];
      $DatoCiudad    = $InfoApi['geoplugin_city'];
-     $DatoContinente = $InfoApi['geoplugin_continentName'];
     
 
      $DatosUsuario = array(
-       "Ip" => $IpApi,
+       "IP" => $IpApi,
        "Pais" => $DatoPais,
        "Ciudad" => $DatoCiudad
      );
