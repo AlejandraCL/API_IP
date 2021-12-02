@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'API-ACL'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4900088DBDC1448B9AB383F496792BF0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_408EBFFDE66B495B9C549E3048480AF8 }}
           package: .
